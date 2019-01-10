@@ -1,6 +1,6 @@
 # GPDPS
 
-`GPDPS` is a [Julia](http://julialang.org) package that provides the reference implementation of the generalized primal-dual proximal splitting approach described in the paper "[Primal-dual proximal splitting and generalized conjugation in non-smooth non-convex optimization](https://www.uni-due.de/~adf040p/preprints/GPDPS.pdf)" by Christian Clason, Stanislav Mazurenko, and Tuomo Valkonen.
+`GPDPS` is a [Julia](http://julialang.org) package that provides the reference implementation of the generalized primal-dual proximal splitting approach described in the paper "[Primal-dual proximal splitting and generalized conjugation in non-smooth non-convex optimization](https://arxiv.org/abs/1901.02746)" by Christian Clason, Stanislav Mazurenko, and Tuomo Valkonen.
 
 ## Usage
 
@@ -37,7 +37,7 @@ If you find this code useful, you can cite the paper as
         title = {Primal-dual proximal splitting and generalized conjugation in non-smooth non-convex optimization},
         year = {2019},
         eprinttype = {arxiv},
-        eprint = {1901.XXXXX},
+        eprint = {1901.02746},
     }
 
 
