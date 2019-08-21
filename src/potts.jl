@@ -65,11 +65,13 @@ end
 
 function ∇ᵀ!(v,v₁,v₂)
     @. @views begin
-        v[2:end, :] = v₁[1:(end-1), :] - v₁[2:end, :]  
+        v[2:(end-1), :] = v₁[1:(end-2), :] - v₁[2:(end-1), :]  
         v[1, :] = -v₁[1, :]
+        v[end, :] = v₁[end-1, :]
 
-        v[:, 2:end] += v₂[:, 1:(end-1)] - v₂[:, 2:end]
+        v[:, 2:(end-1)] += v₂[:, 1:(end-2)] - v₂[:, 2:(end-1)]
         v[:, 1] += -v₂[:, 1]
+        v[:, end] += v₂[:, end-1]
     end
     return v
 end

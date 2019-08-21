@@ -20,8 +20,8 @@ function gpdps_enep!(u,v,data,params)
         Kᵤ .= Sᵀ(ρ₁,ρ₂) .+ α.*u
 
         # print output
-        Psi = (norm(yᵥᵤ-z₁)^2/2 + α/2*norm(v₁) - norm(yᵤᵤ-z₁)^2/2 - α/2*norm(u₁) +
-               norm(yᵤᵥ-z₂)^2/2 + α/2*norm(v₂) - norm(yᵤᵤ-z₂)^2/2 - α/2*norm(u₂)) /
+        Psi = (norm(yᵤᵤ-z₁)^2/2 + α/2*norm(u₁) - norm(yᵥᵤ-z₁)^2/2 - α/2*norm(v₁) +
+               norm(yᵤᵤ-z₂)^2/2 + α/2*norm(u₂) - norm(yᵤᵥ-z₂)^2/2 - α/2*norm(v₂)) /
               length(z₁)
         err = (norm(u₁-ue₁)^2 + norm(u₂-ue₂)^2)/length(z₁)
         @printf("it %3d: Psi = %1.3e\t Err = %1.3e\n", it, Psi, err)
@@ -70,7 +70,7 @@ end
 
 function setup_fdm(N)
     dx = 1/(N+1)
-    xm = range(0,stop=1,length=N)
+    xm = range(dx,stop=1-dx,length=N)
     xx,yy = reshape(xm, 1, N), reshape(xm, N, 1)
     x₁,x₂ = repeat(xx,outer=(N,1))[:], repeat(yy,outer=(1,N))[:]
 
