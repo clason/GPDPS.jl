@@ -4,7 +4,7 @@
 
 ## Usage
 
-To use the provided test codes (compatible with Julia version 1.0 and above, tested on macOS and Linux x86_64):
+To use the provided test codes (compatible with Julia version 1.0-1.2, tested on macOS and Linux x86_64):
 
 * start Julia from this directory with `julia --project=.` (or with the relative path to the `GPDPS.jl` directory from somewhere else)
 * do `]instantiate` to download all dependencies (only required the first time, make sure you go back to standard Julia prompt with backspace afterwards)
@@ -17,9 +17,9 @@ To run the example for the elliptic Nash equilibrium problem:
 
 To run the example for the Huber-Potts segmentation model:
 
-* do `test_potts(alpha,gamma,keyword=value)`, where `keyword` is one or more of the following (comma seperated, order insensitive, may be removed before submission) with default value if omitted:
+* do `test_potts(alpha,gamma,keyword=value)`, where `keyword` is one or more of the following (comma separated, order insensitive, may be removed before submission) with default value if omitted:
 
-- `image`: test image; default is `"blobs"` (size 256x254), other images in `.tif` format can be specified if placed in the `img` folder
+- `image`: test image; default is `"blobs"` (size 256x254), other images in `.tif` format can be specified by file name if placed in the `img` folder
 - `isotropic`: use isotropic (value `true`, default) or anisotropic (value `false)` Potts model
 - `maxit`: maximum number of iterations (default 500000)
 
