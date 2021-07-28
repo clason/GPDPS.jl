@@ -12,11 +12,11 @@ authors:
     family-names: "Valkonen"
     given-names: "Tuomo"
     orcid: "https://orcid.org/0000-0001-6683-3572"
-date-released: 2020
+date-released: 2020-02-05
 doi: 10.5281/zenodo.3647614
 license: MIT
 message: "If you use this software, please cite it using these metadata."
-repository-code: "https://github.com/clason/GPDPS.jl"
+url: "https://github.com/clason/GPDPS.jl"
 title: "Julia codes for 'Primal–dual proximal splitting and generalized conjugation in non-smooth non-convex optimization'"
 references:
   - type: article
