@@ -1,4 +1,4 @@
-cff-version: 1.2.0
+cff-version: 1.1.0
 message: "If you use this software, please cite it using these metadata."
 authors:
 - family-names: "Clason"
@@ -12,6 +12,3 @@ authors:
   orcid: "https://orcid.org/0000-0001-6683-3572"
 date-released: 2020-02-05
 doi: 10.5281/zenodo.3647614
-license: MIT
-url: "https://github.com/clason/GPDPS.jl"
-title: "Julia codes for 'Primal–dual proximal splitting and generalized conjugation in non-smooth non-convex optimization'"
