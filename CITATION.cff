@@ -1,14 +1,2 @@
 cff-version: 1.1.0
 message: "If you use this software, please cite it using these metadata."
-authors:
-- family-names: "Clason"
-  given-names: "Christian"
-  orcid: "https://orcid.org/0000-0002-9948-8426"
-- family-names: "Mazurenko"
-  given-names: "Stanislav"
-  orcid: "https://orcid.org/0000-0003-3659-4819"
-- family-names: "Valkonen"
-  given-names: "Tuomo"
-  orcid: "https://orcid.org/0000-0001-6683-3572"
-date-released: 2020-02-05
-doi: 10.5281/zenodo.3647614
