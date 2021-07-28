@@ -15,19 +15,3 @@ doi: 10.5281/zenodo.3647614
 license: MIT
 url: "https://github.com/clason/GPDPS.jl"
 title: "Julia codes for 'Primal–dual proximal splitting and generalized conjugation in non-smooth non-convex optimization'"
-references:
-  - type: article
-    authors:
-    - family-names: "Clason"
-      given-names: "Christian"
-      orcid: "https://orcid.org/0000-0002-9948-8426"
-    - family-names: "Mazurenko"
-      given-names: "Stanislav"
-      orcid: "https://orcid.org/0000-0003-3659-4819"
-    - family-names: "Valkonen"
-      given-names: "Tuomo"
-      orcid: "https://orcid.org/0000-0001-6683-3572"
-    title: "Primal–dual proximal splitting and generalized conjugation in non-smooth non-convex optimization"
-    doi: 10.1007/s00245-020-09676-1
-    journal: "Applied Mathematics & Optimization"
-    year: 2020
