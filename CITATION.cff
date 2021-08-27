@@ -31,4 +31,7 @@ references:
     title: "Primal–dual proximal splitting and generalized conjugation in non-smooth non-convex optimization"
     doi: 10.1007/s00245-020-09676-1
     journal: "Applied Mathematics & Optimization"
-    year: 2020
+    volume: 84
+    number: 2
+    pages: 1239-1284
+    year: 2021

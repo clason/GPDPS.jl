@@ -35,7 +35,11 @@ If you find this code useful, you can cite the paper as
     @article{GPDPS,
         author = {Clason, Christian and Mazurenko, Stanislav and Valkonen, Tuomo},
         title = {Primal-dual proximal splitting and generalized conjugation in non-smooth non-convex optimization},
-        year = {2019},
+        journal = {Applied Mathematics \& Optimization},
+        volume = {84},
+        number = {2},
+        pages = {1239--1284},
+        year = {2021},
         eprinttype = {arxiv},
         eprint = {1901.02746},
     }
